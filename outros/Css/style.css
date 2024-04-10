@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    /* Cor de fundo */
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #333;
+    /* Cor do texto */
+    font-size: 18px;
+}
+
+audio {
+    margin-top: 20px;
+    width: 80%;
+    /* Largura do player de áudio */
+}
+
+/* Estilizando os controles do player de áudio */
+audio::-webkit-media-controls {
+    background-color: #f0f0f0;
+    /* Cor de fundo dos controles */
+}
+
+/* Alterando a cor do botão de reprodução */
+audio::-webkit-media-controls-play-button {
+    background-color: #3f51b5;
+    /* Azul */
+}
+
+/* Alterando a cor do botão de pausa */
+audio::-webkit-media-controls-pause-button {
+    background-color: #ffc107;
+    /* Amarelo */
+}
+
+/* Alterando a cor do tempo decorrido */
+audio::-webkit-media-controls-current-time-display {
+    color: #3f51b5;
+    /* Azul */
+}
+
+/* Alterando a cor do tempo total */
+audio::-webkit-media-controls-time-remaining-display {
+    color: #ffc107;
+    /* Amarelo */
+}
+
+/* Alterando a cor da barra de progresso */
+audio::-webkit-media-controls-timeline {
+    background-color: #fff;
+    /* Branco */
+}
